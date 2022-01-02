@@ -92,7 +92,6 @@ public class PlaceOrderController extends BaseController{
      * validate phone number
      * @param phoneNumber phone number of user
      * @return result validate phone number
-     * 
      */
     public boolean validatePhoneNumber(String phoneNumber) {
     	// check phone number is null
@@ -115,7 +114,6 @@ public class PlaceOrderController extends BaseController{
      * validate name of customer
      * @param name name of customer
      * @return result validate
-     * 
      */
     public boolean validateName(String name) {
     	//check empty name
@@ -163,4 +161,5 @@ public class PlaceOrderController extends BaseController{
         LOGGER.info("Order Amount: " + order.getAmount() + " -- Shipping Fees: " + fees);
         return fees;
     }
+    
 }
