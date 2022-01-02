@@ -94,7 +94,6 @@ public class PlaceOrderController extends BaseController{
      * @return result validate phone number
      */
     public boolean validatePhoneNumber(String phoneNumber) {
-    	// DUCHQ 20183888
     	// check phone number is null
     	if (phoneNumber == null) return false;
     	//check phoneNumber has 10 digits

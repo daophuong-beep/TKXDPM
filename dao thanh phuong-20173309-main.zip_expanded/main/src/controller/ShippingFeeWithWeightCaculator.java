@@ -3,11 +3,6 @@ package controller;
 import entity.order.Order;
 import java.util.Random;
 
-/**
- *
- * @author DUCHQ
- *
- */
 public class ShippingFeeWithWeightCaculator implements ShippingFeeCalculator {
 
 	@Override

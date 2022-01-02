@@ -5,12 +5,7 @@ public class DomesticDebitCard extends PaymentCard{
 	private String cardNumber;
 	private String validDate;
 	private String cardHolderName;
-	/**
-	 * @author DUCHQ
-	 */
-	
-	
-	//Default constructor
+
 	public DomesticDebitCard() {
 		
 	}
@@ -23,7 +18,6 @@ public class DomesticDebitCard extends PaymentCard{
 		this.cardHolderName = cardHolderName;
 	}
 
-	//getting and setting method
 	public String getIssuingBank() {
 		return issuingBank;
 	}
